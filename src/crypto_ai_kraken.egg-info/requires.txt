@@ -1,0 +1,10 @@
+httpx>=0.27
+websockets>=12.0
+pydantic>=2.7
+python-dotenv>=1.0
+pandas>=2.2
+numpy>=1.26
+loguru>=0.7
+tenacity>=8.2
+ccxt>=4.3
+backtrader>=1.9.78.123

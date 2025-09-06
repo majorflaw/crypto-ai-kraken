@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/app.py
+src/agent/groq_client.py
+src/crypto_ai_kraken.egg-info/PKG-INFO
+src/crypto_ai_kraken.egg-info/SOURCES.txt
+src/crypto_ai_kraken.egg-info/dependency_links.txt
+src/crypto_ai_kraken.egg-info/requires.txt
+src/crypto_ai_kraken.egg-info/top_level.txt
+src/data/ohlc_rest.py
+src/exchange/kraken_ws.py
+src/utils/config.py

@@ -1,0 +1,17 @@
+[project]
+name = "crypto-ai-kraken"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "httpx>=0.27",
+  "websockets>=12.0",
+  "pydantic>=2.7",
+  "python-dotenv>=1.0",
+  "pandas>=2.2",
+  "numpy>=1.26",
+  "loguru>=0.7",
+  "tenacity>=8.2",
+  "ccxt>=4.3",           # optional; we’ll also show native REST/WS
+  "backtrader>=1.9.78.123",  # or vectorbt later
+  "pyarrow>=20"
+]
