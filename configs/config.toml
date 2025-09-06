@@ -1,0 +1,20 @@
+[run]
+base_tf = "1m"           # build from live ticks
+target_tf = "1h"         # strategy timeframe (built from base)
+log_dir = "logs"
+trades_csv = "logs/paper_trades.csv"
+
+[symbols]
+# Kraken Futures Demo product IDs
+products = ["PI_XBTUSD", "PI_ETHUSD"]
+
+[strategy]
+fast = 20
+slow = 50
+atr_period = 14
+atr_mult = 2.0
+fee_bps = 1.0
+
+[risk]
+# v1: fixed 1x notional (no leverage modeling).
+daily_loss_limit_pct = 2.0   # stop trading for the day if equity drops this % from day start
